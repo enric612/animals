@@ -28,5 +28,5 @@ public class Gos extends AnimalClass {
 	public void lladrar(){
 		System.out.println("Guau Guau");
 	}
-	
+	 
 }
