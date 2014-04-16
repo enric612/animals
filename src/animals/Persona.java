@@ -1,9 +1,10 @@
 package animals;
 
-public class Gos extends AnimalClass {
+public class Persona extends AnimalClass {
 
 	protected Double coordX;
 	protected Double coordY;
+	protected Double coordZ;
 	
 	
 	/*
@@ -11,22 +12,15 @@ public class Gos extends AnimalClass {
 	 */
 	
 	public void menja() {
-		this.setPes((this.getPes())+1);
+		this.setPes((this.getPes())+2);
 
 	}
 
 	public void mou() {
 		this.coordX += 1;
 		this.coordY += 1;
+		this.coordZ += 1;
 
 	}
 
-	/*
-	 * Mètodes propis
-	 */
-	
-	public void lladrar(){
-		System.out.println("Guau Guau");
-	}
-	
 }
